@@ -1,0 +1,27 @@
+GOA SUNSET · PALM INVITATION — HOW TO EDIT
+==========================================
+Edit ONLY details.js. Keep the "quotes" and the commas.
+
+Couple ........ groom, bride, monogram (shown on the brass bell), groomParents, brideParents, groomLabel, brideLabel
+Opening ....... gateEyebrow, gateText — envelope on a Goa beach; names & date on the card come from groom/bride/date
+Top & card .... heroEyebrow, place, blessing, tagline, inviteLine, cardFooter (null = automatic date + venue, "" = hide)
+Pictures ...... heroImage (beach view behind the doors + top of page), footerImage, venueImage, couplePhoto
+                Put a real resort photo in images/ and write e.g. venueImage: "images/resort.jpg"
+Postcards ..... postcardEyebrow, postcardTitle, postcardNote, postcards (3 photos { src, cap }) — the tilted photo collage
+Gallery ....... list of { src: "images/xyz.jpg", cap: "caption" } — add or remove lines freely
+Date .......... weddingDateTime (for the countdown), dateDay / dateMonth / dateYear (the 3 scratch cards),
+                sealText, dateNote, rememberReveal (false = scratch cards every visit)
+Events ........ add / remove lines. image = picture, focus = "top" / "center" / "bottom"
+Muhurtham ..... muhurat: { title, label, time, text }
+Venue ......... venueName, venueAddress, venueNote, venueCity, mapQuery (what Google Maps searches)
+Wardrobe ...... dressCode: colors = colour chips, look (use | for new line),
+                poster = optional full dress-code poster image (shown whole, tap to enlarge)
+RSVP .......... whatsapp (country code + number, no +), rsvpBy
+Closing ....... closing, families, hashtag ("" = automatic #GroomWedsBride)
+Music ......... music: "music/song.mp3" (put your mp3 in the music folder), "" = no music
+Colours ....... theme: ink, blue (main green), sky, mist, gold
+Hide .......... hideSections: e.g. ["gallery"]
+
+Resort photos: images/resort-1.jpg, resort-2.jpg, resort-3.jpg (replace with the real venue photos, same names = no edits needed)
+Artwork files (images/): palm-tree.png / palm-tree-r.png,
+palm-corner.png, side-l.png / side-r.png (palm, frangipani & hibiscus borders), heart-line.svg, bouquet.png
